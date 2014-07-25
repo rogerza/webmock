@@ -68,7 +68,7 @@ module WebMock
 
   class MethodPattern
     def initialize(pattern)
-      @pattern = pattern
+      @pattern = WebMock::Util::HttpMethod.normalize_method(pattern)
     end
 
     def matches?(method)

@@ -11,6 +11,7 @@ require 'webmock/errors'
 
 require 'webmock/util/query_mapper'
 require 'webmock/util/uri'
+require 'webmock/util/http_method'
 require 'webmock/util/headers'
 require 'webmock/util/hash_counter'
 require 'webmock/util/hash_keys_stringifier'
@@ -48,5 +49,3 @@ require 'webmock/http_lib_adapters/typhoeus_hydra_adapter'
 require 'webmock/http_lib_adapters/excon_adapter'
 
 require 'webmock/webmock'
-
-
